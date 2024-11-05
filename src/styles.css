@@ -1,0 +1,495 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+    
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+::-webkit-scrollbar{
+    background-color: transparent;
+    border-radius: 1em;
+    
+    height: 0.5em;
+    border: 0.08em solid rgb(72, 141, 245);
+
+
+}
+::-webkit-scrollbar-thumb{
+    background-color: rgb(72, 141, 245);
+    border-radius: 1em;
+
+
+}
+button{
+    cursor: pointer;
+}
+
+.blue-btn{
+    background-color: rgb(72, 141, 245);
+    padding: 0.1em 0.5em;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    border: 0.08em solid transparent;
+    max-height: 3em;
+    cursor: pointer;
+    margin-top: 1.8em;
+    border-radius: 0.5em;
+    transition: 0.2s all;
+}
+.blue-btn:hover{
+    background-color: transparent;
+    border: 0.08em solid rgb(72, 141, 245);
+    color:rgb(72,141,245);
+    transition: 0.2s all;
+    
+}
+.line{
+    height: 0.2em;
+    background-color: black;
+    width: 80%;
+}
+body  .skiptranslate,
+body  .goog-te-banner-frame ,body .VIpgJd-ZVi9od-aZ2wEe-wOHMyf{
+    display: none !important;
+    width: 0 !important;
+    height: 0 !important;
+
+}
+#langtest{
+    display: none;
+}
+#main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+@media only screen and (max-width:576px){
+#footer-container{
+    flex-direction: column !important;
+    align-items: center !important;
+}
+#footer-logo{
+    width: 100% !important;
+    border: none !important;
+    padding: 1em;;
+    margin: 0 !important;
+    border-bottom: 0.08em solid #E3952D !important;
+}
+
+#our-footer{
+    width: 100% !important;
+    border: none !important;
+    padding: 1em;;
+    margin: 0 !important;
+    border-bottom: 0.08em solid #E3952D !important;
+}
+#about-footer{
+    width: 100% !important;
+    border: none !important;
+    padding: 1em;;
+    margin: 0 !important;
+    border-bottom: 0.08em solid #E3952D !important;
+}
+#contact-footer{
+    width: 100% !important;
+    border: none !important;
+    padding: 1em;;
+    margin: 0 !important;
+}
+}
+
+@media only screen and (max-width:720px){
+    #search-form{
+        flex-direction: column !important;
+        
+    }
+    #text-display{
+        justify-self: center;
+        min-height: 4em !important;
+    }
+    #section1{
+        min-height: 150vh !important;
+        backdrop-filter: blur(5px) !important;
+    }
+    #search-form .home-input{
+        width: 100%;
+    }
+    #search-btn{
+        min-width: 100% !important;
+    }
+}
+@media only screen and (max-width:306px){
+
+    #header div{
+        width: 100%;
+        margin-bottom: 1em;
+    }
+}
+@media only screen and (max-width:380px){
+
+    #logo-span{
+        min-width: 100%;
+        margin-bottom: 1em;
+    }
+    #navbar{
+        min-width: 100%;
+        margin-bottom: 1em;
+    }
+}
+@media only screen and (max-width:1416px){
+
+    .div-revenue{
+        min-width: 80%;
+    }
+    #dashboard-main{
+        min-width: auto !important;
+        height: 55em !important ;
+    }
+    #dashboard-nav{
+        min-width: auto !important;
+        height: 55em !important ;
+    }
+    #revenue-container{
+        justify-content: center !important;
+    }
+}
+@media only screen and (max-width:1073px){
+
+    #dashboard-container{
+        flex-direction: column !important;
+    }
+    .div-revenue{
+        min-width: 30%;
+        background-size: contain  !important;
+        background-color: white !important;
+    }
+    #dashboard-main{
+        width: 100% !important;
+        height: auto !important;
+    }
+    #dashboard-nav{
+        width: 100% !important;
+        height: auto !important;
+    }
+    #dashboard-nav li{
+        display: flex !important;
+        flex-direction: row !important;
+        justify-content: center !important;
+    }
+    #dashboard-nav li h5{
+        width: 50%;
+    }
+    #dashboard-nav li h4{
+        width: 50%;
+        justify-self: flex-start !important;
+        transform: translateX(-40%);
+    }
+}
+@media only screen and (max-width:1492px){
+    .added-hotel-card{
+        flex-direction: column !important;
+        height: auto !important;
+        text-align: center !important;
+    }.added-hotel-card img{
+        width: 50% !important;
+        height: auto !important;
+     }
+     #added-hotel-title{
+        justify-content: center !important;
+     }
+     #added-hotel-controls{
+        flex-direction: row;
+     }
+     #added-hotel-region{
+        width: 80%;
+        justify-content: center;
+        height: 3em;
+     }
+}  
+
+@media only screen and (max-width:700px){
+    
+#reduction-container{
+    flex-direction: column !important;
+}
+#added-hotel-description{
+    justify-content: center !important;
+}
+.dashboard-added-hotel-spanner:nth-child(2){
+    flex-direction: column !important ;
+    align-items: center;
+    
+}
+.dashboard-added-hotel-spanner:nth-child(3){
+    justify-content: flex-start !important;
+    text-overflow: clip;
+    height: 10em !important;
+    width: 90%!important;
+    justify-self: center !important;
+}
+.dashboard-added-hotel-spanner:nth-child(3) p{
+   
+    width: auto !important;
+    height: auto !important;
+    word-break: break-all !important;
+}
+.dashboard-added-hotel-col{
+    align-items: center;
+}
+}  
+@media only screen and (max-width:800px){
+
+    #booking-panel{
+        max-width: 40em !important;
+        
+    }
+    #booking-hotel{
+        
+        width: 90% !important;
+        flex-direction: column !important;
+
+
+    }
+    #booking-accomodations{
+        
+        flex-direction: column !important;
+        justify-content: flex-start !important;
+        overflow-y: scroll !important;
+        min-height: 10em !important;
+        height: 10em !important;
+        width: 80% !important;
+    }
+
+    #booking-accomodations button{
+        width: 80%;
+        margin: 1em;
+    }
+    #booking-total{
+        min-height: 10em;
+    }
+
+    .tester{
+        position:  relative !important;
+                min-width: 40em !important;
+        min-height: 40em !important;
+        max-height: 40em !important;
+        overflow: scroll !important;
+    }
+    #hotel-info{
+        width: 90% !important;
+        margin: 1em !important;
+        justify-content: center !important;
+        align-items: center !important;
+        
+    } 
+    #hotel-present{
+        width: 90% !important;
+    }
+    #booking-rating{
+        min-width: 100% !important;
+        margin-bottom: 0.3em;
+    }
+    #booking-description{
+        min-width: 80% !important;
+    }
+    #booking-rooms{
+                justify-content: flex-start !important;
+        width: 80% !important;
+    }
+}
+@media only screen and (max-width:662px){
+    .checker{
+        min-width: 50%;
+    }
+   #prev-btn{
+    min-height: 1.5em;
+   }
+   #booking-control{
+    
+    min-height: 7em;
+   }
+    #booking-panel{
+        max-width: 25em !important;
+        max-height: 45em !important;
+        
+    }
+    .tester{
+        min-width: 25em !important;
+        max-height: 36em !important;
+        min-height: 36em !important;
+        overflow: scroll !important;
+    }
+    #booking-accomodations{
+        
+        flex-direction: column !important;
+        justify-content: flex-start !important;
+        overflow-y: scroll !important;
+        min-height: 10em !important;
+        height: 10em !important;
+        width: 80% !important;
+    }
+
+    #booking-accomodations button{
+        width: 80%;
+        margin: 1em;
+    }
+    #booking-total{
+        min-height: 10em;
+        min-width: 80%;
+    }
+
+}
+@media only screen and (max-width:264px){
+.div-revenue{
+    width:100% !important;
+    min-width:10em!important;
+}
+}
+@media only screen and (max-width:320px){
+#dashboard-nav li{
+    min-width:10em!important;
+}
+}
+
+@media only screen and (max-width:460px){
+    #booking-panel{
+        max-width: 20em !important;
+        max-height: 45em !important;
+        
+    }
+    .tester{
+        min-width: 100% !important;
+    }
+    .booking-slider{
+        width: 8em !important;
+    }
+
+}
+@media only screen and (max-width:335px){
+    #booking-panel{
+        max-width: 15em !important;
+        max-height: 45em !important;
+        
+    }
+    .tester{
+        min-width: 100% !important;
+    }
+    .booking-slider{
+        width: 5em !important;
+    }
+    #booking-title{
+        text-align: center;
+    }
+
+}
+    
+@media only screen and (max-width:500px){
+    #additional-details{
+        flex-direction: column !important;
+    }
+    #other-additional-details{
+        flex-direction: column !important;
+    }
+    #register-form{
+        overflow-y: auto;
+        overflow-x: hidden;
+        justify-content: flex-start !important;
+    }
+
+}
+    
+/*height responsive*********************************/
+@media only screen and (max-height:800px){
+
+    .tester{
+        position:  relative !important;
+        min-height: 100% !important;
+        max-height: 100% !important;
+        overflow: scroll !important;
+    justify-content: flex-start !important;
+    }
+    #booking-hotel{
+        min-height: 20em !important;
+    }
+}
+@media only screen and (max-height:703px){
+    #booking-accomodations{
+        justify-content: flex-start !important;
+        overflow-x: scroll !important;
+    }
+    #booking-total{
+       
+        min-width: 10em !important;
+    }
+    #booking-description{
+        min-width: 5em !important;
+        max-width: 5em !important;
+    }}
+    
+@media only screen and (max-height:488px){
+.booking-ml-naming{
+    background-color: transparent !important;
+    text-align: center;
+}
+.booking-slider{
+    width: 10em !important;
+}
+}
+@media only screen and (max-height:400px){
+.booking-slider{
+    width: 8em !important;
+}
+}
+@media only screen and (max-height:325px){
+.booking-slider{
+    width: 6em !important;
+}
+}
+@media only screen and (max-height:620px){
+#login-form{
+    top: 0% !important;
+}
+}
+@media only screen and (max-height:620px){
+#login-form{
+    top: 0% !important;
+}
+}
+@media only screen and (max-height:555px){
+#login-form{
+    top: -20% !important;
+}
+}
+@media only screen and (max-height:460px){
+#login-form{
+    top: -10% !important;
+    max-height: 20em !important;
+    justify-content: flex-start !important;
+    overflow-y: auto;
+}
+}
+@media only screen and (max-height:680px){
+#register-form{
+    max-height: 40em !important;
+    justify-content: flex-start !important;
+    overflow-y: auto;
+}
+}
+@media only screen and (max-height:655px){
+#register-form{
+    top:40% !important;
+    max-height: 30em !important;
+    justify-content: flex-start !important;
+    overflow-y: auto;
+}
+}
+@media only screen and (max-height:500px){
+#register-form{
+    top:55% !important;
+    max-height: 20em !important;
+    justify-content: flex-start !important;
+    overflow-y: auto;
+}
+}

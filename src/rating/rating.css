@@ -1,0 +1,19 @@
+
+.rating-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.rating{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    background-color: rgb(240, 120, 7);
+    border-radius: 0.5em 0.5em 0.5em 0 ;
+    padding: 0.2em 0.4em;
+    color: white;
+    font-size: 0.8em;
+}

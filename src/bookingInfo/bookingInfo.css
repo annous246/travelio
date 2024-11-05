@@ -1,0 +1,24 @@
+#booking-info{
+    max-height: 15em;
+    width:  95%;
+    overflow:hidden auto ;
+    position: relative;
+    display: block;
+    border: 0.08em solid black;
+    border-radius: 0.35em;
+    margin:  0.5em;
+    padding-right: 1em;
+}
+#booking-info::-webkit-scrollbar{
+    width: 0.5em;
+}
+#booking-info::-webkit-scrollbar-thumb{
+    background-color: white !important;
+    border: 0.05em solid black;
+
+}
+#booking-info::-webkit-scrollbar-track{
+    background-color: #488DF5;
+    border-radius: 1em;
+
+}

@@ -1,0 +1,65 @@
+#profile-book{
+    width: 1.5em;
+    height: 1.5em;
+    text-align: center;
+}
+.data-spanner{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 5em;
+    margin: 0 0.2em;
+    width: 10em;
+    padding: 0.6em;
+    overflow: hidden;
+}
+.book-container{  
+    background-color: white;
+    border-radius: 1em;
+    font-weight: bold;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 0.08em solid rgba(0, 0, 0, 0.253);
+    max-height: 5em;
+    max-height: 5em;
+
+}
+.book-status{
+    background-color: rgba(223, 238, 13, 0.699);
+    padding: 0.2em 0;
+    border-radius: 1em;
+
+
+}
+.book-font{
+    font-size: 0.9em;
+    font-weight: 100 !important;
+    margin-top:1em ;
+}
+.book-commission{
+    background-color: rgba(17, 163, 189, 0.699);
+    padding: 0.2em 0;
+    border-radius: 1em;
+}
+.book-controls{
+    background-image: url('../assets/dots.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    cursor: pointer;
+    border: 0.08em solid rgb(133, 128, 128);
+    border-radius: 10em;
+    width: 2em;
+    height: 1.8em;
+    padding: 0.1em;
+    margin: 0 3em;
+}
+.book-controls-title{
+   width: 8em;
+}

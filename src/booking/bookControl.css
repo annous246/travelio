@@ -1,0 +1,84 @@
+.book-control-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    border: 0.08em solid black;
+    border-radius: 1em;
+    position:relative;
+    width: 10em;
+    height: 10em;
+    opacity: 0;
+
+    backdrop-filter: blur(5px);
+    transition: 0.2s all;
+}
+.accept-booking{
+    background-color: rgba(89, 238, 89, 0.733);
+    border-radius: 1em;
+    padding: 0.2em 1em;
+    border: 0.08em solid black;
+    margin-bottom: 1em;
+    font-weight: 500;
+}
+
+.accept-booking:hover{
+    background-color: transparent;
+    border: 0.08em solid rgba(89, 238, 89, 0.733);
+    color:rgba(89, 238, 89, 0.733);
+
+    transition: 0.2s all;
+}
+.decline-booking{
+    background-color: rgba(255, 56, 29, 0.733);
+    border-radius: 1em;
+    padding: 0.2em 1em;
+    border: 0.08em solid black;
+    margin-bottom: 1em;
+    font-weight: 500;
+    transition: 0.2s all;
+}
+.decline-booking:hover{
+    background-color: transparent;
+    border: 0.08em solid rgba(255, 56, 29, 0.733);
+    color:rgba(255, 56, 29, 0.733);
+
+    transition: 0.2s all;
+}
+.delete-booking{
+    border-radius: 1em;
+    padding: 0.2em 1em;
+    border: 0.08em solid black;
+    background-image: url('../assets/trash.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 25%;
+    height: 2em;
+    width:  5.5em;
+    transition: 0.2s all;
+}
+.delete-booking:hover{
+    background-color: transparent;
+    transition: 0.2s all;
+
+}
+
+
+.print-booking{
+    border-radius: 1em;
+    padding: 0.2em 1em;
+    border: 0.08em solid black;
+    background-image: url('../assets/printer.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 25%;
+    height: 2em;
+    width:  5.5em;
+    transition: 0.2s all;
+}
+.print-booking:hover{
+    background-color: transparent;
+    transition: 0.2s all;
+
+}

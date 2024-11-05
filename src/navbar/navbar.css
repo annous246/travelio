@@ -1,0 +1,179 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+    
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+#header{
+    overflow: hidden;
+    position:relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    backdrop-filter: blur(2px);
+    padding:2em 0.5em;
+    width: 100%;
+}
+#navbar{
+    position: relative;
+    overflow: hidden;
+    width: 60%;
+    box-shadow: -1px 2px 3px  rgb(233, 190, 190);
+    border-radius: 1em;
+    padding: 1em;
+    margin-right: 1em;
+    color: rgba(0, 0, 0, 0.397);
+}
+#navbar ul{
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    list-style-type: none;
+    font-weight: 1000;
+}
+#navbar li{
+    cursor: pointer;
+    margin-left: 1em;
+    transition: 0.2s all;
+}
+.expander{
+    position: absolute;
+    width: 0;
+    height: 0;
+    top: -10%;
+    background-color: rgb(72, 141, 245);
+    border-radius: 20em;
+    transition: 0.2s all;
+        z-index: -1;
+}
+#navbar li:hover .expander{
+    
+    position: absolute;
+    width: 6em;
+    height: 6em;
+    top: -10%;
+    background-color: rgb(72, 141, 245);
+    border-radius: 20em;
+        backdrop-filter: blur(10px);
+    color: red;
+    transition: 0.4s all;
+}
+#navbar li:hover{
+    color: white;
+    transition: 0.2s all;
+}
+
+#logo-span{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-self: center;
+    width: 15%;
+   color: rgba(0, 101, 216, 0.397);
+}
+#logo-img{
+    height:50px;
+    width:50px;
+}
+#login{
+    max-width: 10%;
+    min-width: 5.5em;
+    justify-self: flex-end;
+    background-color: rgb(72, 141, 245);
+    border: none;
+    padding: 1em;
+    border-radius: 1em;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    border: 0.08em solid transparent;
+    transition: 0.2s all;
+    cursor: pointer;
+   
+}
+#register{
+    max-width: 10%;
+    min-width: 5.5em;
+    justify-self: flex-end;
+    background-color: rgb(72, 141, 245);
+    border: none;
+    padding: 1em;
+    border-radius: 1em;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    border: 0.08em solid transparent;
+    transition: 0.2s all;
+    cursor: pointer;
+   
+}
+#language{
+    width: 4em;
+    height: 4em;
+    justify-self: flex-end;
+    display: flex;
+    background-color: rgb(72, 141, 245);
+    border: none;
+    padding: 1em;
+    border-radius: 10em;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    align-items: center;
+    justify-content: center;
+    border: 0.08em solid transparent;
+    transition: 0.2s all;
+    cursor: pointer;
+   
+}
+#language img{
+    width: 2.5em;
+    height: 2.5em;
+    border-radius: 10em;
+}
+#language:hover{
+background-color: transparent;
+border: 0.08em solid rgb(72, 141, 245);
+transition: 0.2s all;
+
+}
+
+#login:hover{
+    background-color: transparent;
+    border: 0.08em solid rgb(72, 141, 245);
+    color:rgb(72,141,245);
+    transition: 0.2s all;
+    
+    
+}
+
+#register:hover{
+background-color: transparent;
+border: 0.08em solid rgb(72, 141, 245);
+color:rgb(72,141,245);
+transition: 0.2s all;
+
+}
+#logout-btn{
+    border: 0.05em solid black;
+    border-radius: 1em;
+    background-color: rgb(247, 77, 77);
+    color: white;
+    padding: 0.5em;
+    transition: 0.2s all;
+}
+#logout-btn:hover{
+    border: 0.05em solid rgb(247, 77, 77);
+    border-radius: 1em;
+    color: rgb(247, 77, 77);
+    background-color: white;
+    padding: 0.5em;
+    transition: 0.2s all;
+}

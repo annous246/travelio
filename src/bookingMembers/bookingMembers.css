@@ -1,0 +1,49 @@
+#booking-members{
+    height: 10em;
+    width:  95%;
+    overflow: hidden auto;
+    position: relative;
+    display: row;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center;
+    border: 0.08em solid black;
+    border-radius: 0.4em;
+    margin:  0.5em;
+}
+.display-booking-row{
+display: flex;
+flex-direction: row;
+flex-wrap: nowrap;
+align-items: center;
+justify-content: center;
+margin: 1em;
+}
+.display-booking-row label{
+    text-align: center;
+    border: 0.08em solid black;
+    border-radius:1em;
+    padding: 0.5em;
+}
+.adults-section{
+    background-color: rgba(0, 110, 255, 0.596);
+    width: 95%;
+    height: 50%;
+    padding: 0 1em;
+    border-radius: 1em;
+}
+.children-section{
+    background-color: rgba(255, 217, 0, 0.596);
+    width: 95%;
+    height: 50%;
+    padding: 0 1em;
+    border-radius: 1em;
+}
+.babies-section{
+    background-color: rgba(85, 230, 157, 0.596);
+    width: 95%;
+    height: 50%;
+    padding: 0 1em;
+    border-radius: 1em;
+}

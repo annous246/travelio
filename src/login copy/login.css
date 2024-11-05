@@ -1,0 +1,103 @@
+#login-container{
+    position: absolute;
+    z-index: 100;
+    background-color: transparent;
+    width: 100%;
+    min-height: 200%;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+    text-align: center;
+    justify-content: start;
+    display: none;
+
+}
+#login-form{
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    padding: 1em;
+    margin: 1em;
+    
+    margin-top: 20em;
+    width: 50%;
+    backdrop-filter: blur(5px);
+    border-radius: 1em;
+    border: 0.08em solid black;
+    transition: 0.2s all;
+}
+#login-form h2{
+    color: white;
+    margin-top: 1em;
+}
+#login-submit-btn{
+    width: 80%;
+    margin: 1em;
+    background-color: transparent;
+    border: 0.08em solid black;
+    padding: 0.5em 0;
+    border-radius: 1em;
+    font-weight: bold;
+    transition: 0.2s all;
+}
+#login-form #login-submit-btn:hover{
+    width: 80%;
+    margin: 1em;
+    background-color: rgba(6, 125, 194, 0.521);
+    border: 0.08em solid transparent;
+    padding: 0.5em 0;
+    border-radius: 1em;
+    transition: 0.2s all;
+}
+#login-form a{
+    font-size: 0.8em;
+    align-self: flex-end;
+}
+#login-form label{
+    padding: 1em;
+    color: white;
+
+}
+#login-email{
+    width: 70%;
+}
+#login-password{
+    width: 70%;
+}
+#login-close{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+   color: rgb(247, 113, 80);;
+    width: 2em;
+    height: 2em;
+    border: 0.08em solid rgb(247, 113, 80);;
+    padding: 0.5em 0;
+    border-radius: 1em;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    align-self: flex-end;
+    justify-self: start;
+    margin-bottom: 2em;
+    background-color: transparent;
+    transition: 0.2s all;
+}
+#login-close:hover{
+    color:white;
+    border: 0.08em solid transparent;
+    background-color: rgb(247, 113, 80);
+    transition: 0.2s all;
+
+}
+.slider{
+    transform:translateY(-200px);
+}
+.opaque{
+    opacity: 1 !important;
+    transition: 0.2s all;
+}

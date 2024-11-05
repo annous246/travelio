@@ -1,0 +1,15 @@
+
+#section1{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-self:center;
+    height: 80vh;
+    width: 100%;
+    background-image: url("../assets/house.jpg");
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: cover;
+    border-radius: 1em 1em 0 0;
+}

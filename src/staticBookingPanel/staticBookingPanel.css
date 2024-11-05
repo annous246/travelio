@@ -1,0 +1,136 @@
+#booking-panel{
+    background-color: rgba(0, 0, 0, 0.205);
+    backdrop-filter: blur(2px);
+     background-color: white;
+     border:0.08em solid black ;
+     border-radius: 1em;
+    top: 50%;
+    left: 50%;
+    height: 100vh;
+    width:  100vh;
+    overflow: hidden;
+    transform: translate(-50%,-50%);
+    position: fixed;
+    z-index: 1000;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+    opacity: 1;
+    justify-content: flex-start;
+    transform: translate(-50%,-50%);
+    transition: 0.2s all;
+}
+#scroll-container{
+    width: 100vh;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    position: relative;
+    justify-content: center;
+    overflow: hidden;
+}
+.shift{
+    transform: translate(-50%,-30%) !important;
+    opacity: 0 !important;
+    transition: 0.2s all;
+}
+#exit-booking{
+    border-radius: 1em;
+    background-color: transparent;
+    color: red;
+    text-align: center;
+    border: 0.08em solid red;
+    width: 2em;
+    height: 2em;
+    align-self: flex-start;
+    margin-top: 0.5em;
+    margin-left: 0.5em;
+    font-weight: bold;
+    transition: 0.2s all;
+}
+#exit-booking:hover{
+    color: white;
+    background-color: red;
+    transition: 0.2s all;
+}
+.tester{
+    min-height: 100vh;
+    min-width: 100vh;
+    transform: translateX(100%);
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    transition: 0.2s all;
+
+}
+.slider1{
+
+    transform: translateX(0%);
+    transition: 0.2s all;
+}
+.slider2{
+
+    transform: translateX(-100%);
+    transition: 0.2s all;
+}
+
+
+
+
+
+#night-display-booking{
+    color:black;
+    background-color: white;
+    height: 3.5em;
+    width: 100%;
+    border: 0.18em solid rgb(247, 177, 28);;
+    border-radius:1em;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+   
+
+}
+#checkinoutbooking{
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+    justify-content: center;
+    align-items: center;
+}
+.home-input-booking{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: black;
+    margin: 0 0.2em;
+}
+.home-input label-booking{
+    margin-bottom:0.08em ;
+}
+
+
+#ci-span-booking{
+    width: 30%;
+    }
+    #co-span-booking{
+        width: 30%;
+        
+    }
+    #n-span-booking{
+        width: 30%;
+    
+        
+    }

@@ -1,0 +1,28 @@
+#booking-rooms{
+    min-height:5em;
+    width:  95%;
+    overflow: hidden ;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: flex-end;
+    border: 0.08em solid black;
+    border-radius: 1em;
+    background-image: url('../assets/hotel.png');
+    background-position: 10%;
+    background-repeat: no-repeat;
+    background-size: 5%;
+    margin:  0.5em;
+    cursor: pointer;
+    z-index: 10000000000;
+    transition: 0.2s all;
+}
+#booking-rooms:hover{
+    background-color: rgba(148, 148, 148, 0.432);
+    transition: 0.2s all;
+}
+#booking-title{
+    margin-bottom: 1em;
+}

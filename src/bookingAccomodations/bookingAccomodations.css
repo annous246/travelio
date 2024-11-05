@@ -1,0 +1,42 @@
+#booking-accomodations{
+    min-height: 10em;
+    width:  95%;
+    overflow: hidden ;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center;
+    border: 0.08em solid black;
+    border-radius: 1em;
+    margin:  0.2em 0.5em;
+    margin-bottom: 1em;
+}
+#booking-total{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center;
+    width: 40%;
+    border: 0.08em solid black;
+    border-radius: 1em;
+    height: 95%;
+    overflow: auto;
+    margin-right: 0.1em;
+}
+.acc-btn{
+    background-color: transparent;
+    border-radius: 0.5em;
+    border: 0.08em solid black;
+    padding: 1em;
+    margin: 0 0.5em;
+    transition: 0.2s all;
+}
+.acc-active{
+    background-color: rgba(69, 250, 69, 0.87);
+    color: white;
+    transition: 0.2s all;
+}

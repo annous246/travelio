@@ -1,0 +1,62 @@
+#revenue-container{
+position: relative;
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+justify-content: flex-start;
+align-items: center;
+width: 100%;
+margin-top: -1em;
+}
+.div-revenue{
+    width: 47%;
+    border: 0.08em solid black;
+    border-radius: 0.5em;
+    padding: 1em;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: flex-start;
+    justify-content: flex-start;
+    text-align: start;
+    margin-top: 0.5em;
+    margin-left: 0.5em;
+    background-size:cover;
+    background-color: white ;
+    background-repeat: no-repeat;
+    background-position:center;
+    color: black;
+    font-size: 0.8em;
+    height: 7em;
+    
+    transition: 0.2s all;
+
+}
+.div-revenue:hover{
+    background-size: 1000%;
+    border: 0.08em solid transparent;
+    box-shadow: 0.1em 0.1em  1em #cd7d7e;
+    transition: 0.2s all;
+}
+.revenue{
+    
+    font-size: 1.5em;
+}
+.roll-revenue{
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.1em;
+    
+}
+.monthly{
+    color:#cd7d7e;
+}
+.daily{
+    color:#8085fd;
+}
+.weekly{
+    color:#6ca700;
+}
+.total{
+    color:#a19b00;
+}

@@ -1,0 +1,299 @@
+#roomAdder-container{
+    position: fixed;
+    z-index: 100;
+    background-color: transparent;
+    width: 100%;
+    min-height: 200%;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    text-align: center;
+    justify-content: start;
+    display: flex;
+    align-items: center;
+    top: 55%;
+    left: 50%;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    transform: translate(-50%,-50%);
+
+}
+#main-roomAdder-container{
+    position: fixed;
+    z-index: 1000;
+    background-color: transparent;
+    width: 100%;
+    min-height: 200%;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    text-align: center;
+    justify-content: start;
+    display: none;
+    align-items: center;
+    top: 50%;
+    left: 50%;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    backdrop-filter: blur(5px);
+    transform: translate(-50%,-50%);
+
+}
+#roomAdder-form{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    padding: 1em;
+    margin: 1em;
+    margin-top: 20em;
+    min-width: 20em;
+    backdrop-filter: blur(5px);
+    border-radius: 1em;
+    border: 0.08em solid black;
+    transition: 0.2s all;
+}
+.confirmed-room{
+    background-color: rgba(0, 236, 51, 0.404) !important;
+}
+#roomAdder-form h2{
+    color: white;
+    margin-top: 1em;
+}
+#roomAdder-submit-btn{
+    width: 80%;
+    margin: 1em;
+    background-color: transparent;
+    border: 0.08em solid rgba(62, 231, 11, 0.61);
+    color:white;
+    padding: 0.5em 0;
+    border-radius: 1em;
+    font-weight: bold;
+    transition: 0.2s all;
+}
+#roomAdder-form #roomAdder-submit-btn:hover{
+    width: 80%;
+    margin: 1em;
+    background-color: rgba(0, 236, 51, 0.521);
+    border: 0.08em solid transparent;
+    padding: 0.5em 0;
+    border-radius: 1em;
+    transition: 0.2s all;
+}
+#roomAdder-form a{
+    font-size: 0.8em;
+    align-self: flex-end;
+}
+#roomAdder-form label{
+    padding: 1em;
+    color: white;
+
+}
+#roomAdder-close{
+    top: 24%;
+    left: 5%;
+    position: absolute;
+    transform: translate(-24%,-5%);
+   color: rgb(247, 113, 80);;
+    border: 0.15em solid rgb(247, 113, 80);;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+    min-width: 3em;
+    min-height: 3em;
+    border-radius: 50em;
+    z-index: 100;
+    font-weight: bold;
+    transition: 0.2s all;
+}
+#roomAdder-close:hover{
+    color:white;
+    border: 0.08em solid transparent;
+    background-color: rgb(247, 113, 80);
+    transition: 0.2s all;
+
+}
+.slider{
+    transform:translateY(-200px);
+}
+.opaque{
+    opacity: 1 !important;
+    transition: 0.2s all;
+}
+.left-button{
+    width: 2em;
+    font-weight: bold;
+    background-color: transparent;
+    border: 0.15em solid rgb(247, 113, 80); 
+    color:rgb(247, 113, 80);
+    border-radius: 0.5em 0 0 0.5em;
+    height: 2em;
+}
+.right-button{
+    width: 2em;
+    font-weight: bold;
+    background-color: transparent;
+    border: 0.15em solid rgb(247, 113, 80); 
+    color:rgb(247, 113, 80);
+    border-radius: 0 0.5em 0.5em 0;
+    height: 2em;
+    transition: 0.2s all;
+}
+.right-button:hover{
+    background-color:rgb(247, 113, 80);
+    color: white;
+    transition: 0.1s all;
+}
+.left-button:hover{
+    background-color:rgb(247, 113, 80);
+    color: white;
+    transition: 0.1s all;
+}
+#adults-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+#adults-display{
+    border: 0.08em solid rgb(247, 113, 80); 
+    min-width: 40% !important;
+    padding: 0.1em !important;
+    margin: 0 0.5em;
+    height:auto; 
+    border-radius: 0.2em;
+
+}
+
+
+#children-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    margin-top: 1em;
+}
+#children-display{
+    border: 0.08em solid rgb(247, 113, 80); 
+    min-width: 40% !important;
+    padding: 0.1em !important;
+    margin: 0 0.5em;
+    height:auto; 
+    border-radius: 0.2em;
+
+}
+
+
+#babies-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    margin-top: 1em;
+}
+#babies-display{
+    border: 0.08em solid rgb(247, 113, 80); 
+    min-width: 40% !important;
+    padding: 0.1em !important;
+    margin: 0 0.5em;
+    height:auto; 
+    border-radius: 0.2em;
+
+}
+.unconfirm:hover{
+    background-color: rgb(241, 106, 106) !important;
+}
+.semi-opaque{
+    opacity: 0.5 !important;
+}
+#room-close{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+   color: rgb(247, 113, 80);;
+    width: 2em;
+    height: 2em;
+    border: 0.08em solid rgb(247, 113, 80);;
+    padding: 0.5em 0;
+    border-radius: 1em;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    align-self: flex-end;
+    justify-self: start;
+    background-color: transparent;
+    transition: 0.2s all;
+}
+#room-close:hover{
+    color:white;
+    border: 0.08em solid transparent;
+    background-color: rgb(247, 113, 80);
+    transition: 0.2s all;
+
+}
+
+
+
+#roomAdder-add{
+    position: relative;
+    top: 27%;
+    left: 5%;
+    position: absolute;
+    transform: translate(-27%,-5%);
+   color: rgb(9, 136, 255);;
+    border: 0.15em solid rgb(9, 136, 255);;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+    min-width: 3em;
+    min-height: 3em;
+    border-radius: 50em;
+    z-index: 100;
+    font-weight: bold;
+    transition: 0.2s all;
+}
+#roomAdder-add::before{
+    content: '';
+    position: absolute;
+    background-color: rgb(9, 136, 255);;
+    width: 1.2em;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    height: 0.2em;
+}
+
+
+#roomAdder-add::after{
+    content: '';
+    position: absolute;
+    background-color: rgb(9, 136, 255);;
+    height: 1.2em;
+    top: 51%;
+    left: 51%;
+    transform: translate(-51%,-51%);
+    width:  0.2em;
+}
+#roomAdder-add:hover{
+    color:white;
+    border: 0.08em solid transparent;
+    background-color: rgb(9, 136, 255);
+    transition: 0.2s all;
+
+}
+
+#roomAdder-add:hover::before{
+    background-color: white;
+    transition: 0.2s all;
+
+}
+#roomAdder-add:hover::after{
+    background-color: white;
+    transition: 0.2s all;
+
+}

@@ -1,0 +1,12 @@
+#age-container{
+border: 0.08em solid black;
+padding: 1em;
+justify-content: center;
+align-items: center;
+display: flex;
+flex-direction: column;
+width: 22em;
+min-width: 22em;
+border-radius: 1em;
+margin: 1em;
+}

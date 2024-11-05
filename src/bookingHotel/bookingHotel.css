@@ -1,0 +1,203 @@
+#booking-hotel{
+    height: 25%;
+    width:  95%;
+    overflow: hidden ;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: flex-start;
+    border: 0.08em solid black;
+    border-radius: 1em;
+    margin:  0.5em;
+    
+}
+#hotel-present{
+    width: 70%;
+    border: 0.08em solid black;
+    padding: 0.5em;
+    height: 100%;
+    margin-top: 0.3em;
+    margin-left: 0.3em;
+    justify-self: flex-start;
+    overflow: hidden auto;
+    border-radius: 0.5em;
+    
+}
+#booking-location{
+    height: 20%;
+    font-size: 0.9em;
+    position: relative;
+    flex-shrink: 1;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    flex-direction: row;
+}
+#booking-location p{
+
+    word-break: keep-all;
+    max-height: 100%;
+    overflow: hidden auto;
+}
+#booking-rating{
+    height: 20%;
+    flex-shrink: 1;
+    width: 100%;
+    position: relative;
+}
+#booking-description{
+    width: 100%;
+    height: 60%;
+    position: relative;
+    max-height: 10em;
+    max-width: 10em;
+    word-break: break-all;
+    border: 0.02em solid black;
+    border-radius: 0.5em;
+    padding: 0.5em;
+    flex-shrink: 1;
+      box-sizing: content-box;
+
+    overflow-y: auto;
+}
+#booking-description::-webkit-scrollbar{
+    border: none;
+    width: 0.5em;
+    border-radius: 50em;
+}
+#booking-location p::-webkit-scrollbar{
+    border: none;
+    width: 0.5em;
+    border-radius: 50em;
+}
+#hotel-info{
+    width: 27%;
+    border: 0.08em solid black;
+    border-radius: 1em;
+    padding: 0.5em;
+    height: 14em;
+    margin-left: 0.5em;
+    overflow: hidden auto;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    
+}
+#hotel-header{
+    display: flex;
+    height: 15%;
+    margin-bottom: 0.5em;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: flex-start;
+    border-radius: 1em;
+}
+
+.booking-hotel-star{
+    margin: 0 1em;
+    height: 1em !important;
+    width:  1em !important;
+    background-image: url('../assets/star.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+     }
+#main-img{
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+background-image: url('../assets/image.png');
+    background-position: center;
+    background-repeat: no-repeat;
+border-radius: 0.5em;
+grid-area: main;
+border: 0.05em solid black;
+
+}
+#hotel-pics{
+    display: grid;
+    grid-template-areas: 
+    "main main main first "
+    "main main main first "
+    "img1 img2 img3 img4 "
+    ;
+    height: 11em;
+    width: 100%;
+    gap: 0.5em;
+    position: relative;
+
+}
+#first-img{
+    grid-area: first;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 0.5em;
+    background-image: url('../assets/image.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    border: 0.05em solid black;
+
+    
+    
+}
+#add-img1{
+    background-position: center;
+grid-area: img1;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 0.5em;
+    background-image: url('../assets/image.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    border: 0.05em solid black;
+    
+    
+}
+#add-img2{
+    background-position: center;
+grid-area: img2;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 0.5em;
+    background-image: url('../assets/image.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    border: 0.05em solid black;
+    
+    
+}
+#add-img3{
+    background-position: center;
+grid-area: img3;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 0.5em;
+    background-image: url('../assets/image.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    border: 0.05em solid black;
+    
+    
+}
+#add-img4{
+    background-position: center;
+grid-area: img4;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 0.5em;
+    background-image: url('../assets/image.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    border: 0.05em solid black;
+    
+    
+}

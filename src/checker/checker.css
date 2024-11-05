@@ -1,0 +1,30 @@
+.checker{
+    width: 30%;
+    height: 3em;
+    overflow: hidden auto;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: space-between;
+    border: 0.08em solid black;
+    border-radius: 0.4em;
+    margin:  0.5em;
+    padding: 0 1em;
+text-align: center;
+}
+.checker span{
+    min-width: 1.5em;
+    min-height: 1.5em;
+    border-radius: 1em;
+    border: 0.08em solid black;
+    cursor: pointer;
+    margin-right: 1em;
+    justify-self: flex-end;
+    transition: 0.2s all;
+}
+.valid-checker{
+    background-color: rgba(25, 238, 25, 0.74);
+    transition: 0.2s all;
+}
