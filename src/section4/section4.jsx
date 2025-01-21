@@ -14,7 +14,7 @@ export default function Section4(){
   const img=useRef(null);
   const scroll=useRef(null);
   const [hotels,setHotels]=useState([])
-  const [loading,setLoading]=useState(true);
+  const [loading,setLoading]=useState(false);
    /*
     <TrendingCard name="Hammamet" link="../hammamet.jpg"/>
     <TrendingCard name="Hammamet" link="../assets/hammamet.jpg"/>
